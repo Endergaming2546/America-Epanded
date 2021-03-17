@@ -1,0 +1,20 @@
+namespace = AECWE
+
+country_event = {
+	id = AECWE.1
+	name = EVTTITLEAECWE.1
+	desc = EVTDESCAECWE.1
+	picture = CIVIL_WAR_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = EVTOPTAAECWE.1
+	}
+	
+	option = {
+		name = EVTOPTBAECWE.1
+	}
+}
