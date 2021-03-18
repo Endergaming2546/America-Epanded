@@ -10,241 +10,327 @@ country_event = {
 	
 	fire_only_once = yes
 	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = american_civil_war
+		
+			2499 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			884 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			888 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2665 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			887 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			886 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2500 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			883 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+				
+			2669 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+						
+			4627 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+				
+			2666 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+				
+			4629 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+				
+			885 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+				
+			2497 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+				
+			2498 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+				
+			4628 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+						
+			882 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+						
+			4630 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+						
+			2496 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2014 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2516 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			921 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+ 		
+			2529 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2528 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			919 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			920 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+ 		
+			2530 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			922 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			923 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+ 		
+			2533 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			928  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2534 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			927  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			4626 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			4625 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2535 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			926  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2536 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2539 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2538 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2540 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2541 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			933  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2543 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			932  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2542 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2537 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2538 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			930  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			931  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			893 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			925 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			924  = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2532 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		
+			2531 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+			
+			929 = {
+				cede_province = CSA
+				add_core = CSA
+			}
+		}
+	}
+	
 	option = {
 		name = "ae_civil_war_events.1.a"
+		
+		custom_tooltip = "ae_civil_war_events.1.tt"
+		
+		country_event = {
+			id = ae_civil_war_events.2
+			days = 61
+			random = 30
+		}
 	}
 	
 	option = {
 		name = "ae_civil_war_events.1.b"
 		
-		custom_tooltip = "ae_civil_war_events.1.b.tt"
+		custom_tooltip = "ae_civil_war_events.1.tt"
 		
-		hidden_effect = {
-			2499 = {
-				cede_province = CSA
-			}
+		switch_tag = CSA
 		
-			884 = {
-				cede_province = CSA
-			}
-		
-			888 = {
-				cede_province = CSA
-			}
-		
-			2665 = {
-				cede_province = CSA
-			}
-		
-			887 = {
-				cede_province = CSA
-			}
-		
-			886 = {
-				cede_province = CSA
-			}
-		
-			2500 = {
-				cede_province = CSA
-			}
-		
-			883 = {
-				cede_province = CSA
-			}
-				
-			2669 = {
-				cede_province = CSA
-			}
-						
-			4627 = {
-				cede_province = CSA
-			}
-				
-			2666 = {
-				cede_province = CSA
-			}
-				
-			4629 = {
-				cede_province = CSA
-			}
-				
-			885 = {
-				cede_province = CSA
-			}
-				
-			2497 = {
-				cede_province = CSA
-			}
-				
-			2498 = {
-				cede_province = CSA
-			}
-				
-			4628 = {
-				cede_province = CSA
-			}
-						
-			882 = {
-				cede_province = CSA
-			}
-						
-			4630 = {
-				cede_province = CSA
-			}
-						
-			2496 = {
-				cede_province = CSA
-			}
-		
-			2014 = {
-				cede_province = CSA
-			}
-		
-			2516 = {
-				cede_province = CSA
-			}
-		
-			921 = {
-				cede_province = CSA
-			}
- 		
-			2529 = {
-				cede_province = CSA
-			}
-		
-			2528 = {
-				cede_province = CSA
-			}
-		
-			919 = {
-				cede_province = CSA
-			}
-		
-			920 = {
-				cede_province = CSA
-			}
- 		
-			2530 = {
-				cede_province = CSA
-			}
-		
-			922 = {
-				cede_province = CSA
-			}
-		
-			923 = {
-				cede_province = CSA
-			}
- 		
-			2533 = {
-				cede_province = CSA
-			}
-		
-			928  = {
-				cede_province = CSA
-			}
-		
-			2534 = {
-				cede_province = CSA
-			}
-		
-			927  = {
-				cede_province = CSA
-			}
-		
-			4626 = {
-				cede_province = CSA
-			}
-		
-			4625 = {
-				cede_province = CSA
-			}
-		
-			2535 = {
-				cede_province = CSA
-			}
-		
-			926  = {
-				cede_province = CSA
-			}
-		
-			2536 = {
-				cede_province = CSA
-			}
-		
-			2539 = {
-				cede_province = CSA
-			}
-		
-			2538 = {
-				cede_province = CSA
-			}
-		
-			2540 = {
-				cede_province = CSA
-			}
-		
-			2541 = {
-				cede_province = CSA
-			}
-		
-			933  = {
-				cede_province = CSA
-			}
-		
-			2543 = {
-				cede_province = CSA
-			}
-		
-			932  = {
-				cede_province = CSA
-			}
-		
-			2542 = {
-				cede_province = CSA
-			}
-		
-			2537 = {
-				cede_province = CSA
-			}
-		
-			2538 = {
-				cede_province = CSA
-			}
-		
-			930  = {
-				cede_province = CSA
-			}
-		
-			931  = {
-				cede_province = CSA
-			}
-		
-			893 = {
-				cede_province = CSA
-			}
-		
-			925 = {
-				cede_province = CSA
-			}
-		
-			924  = {
-				cede_province = CSA
-			}
-		
-			2532 = {
-				cede_province = CSA
-			}
-		
-			2531 = {
-				cede_province = CSA
-			}
-		
-			929 = {
-				cede_province = CSA
-			}
-		
-			switch_tag = CSA
+		country_event = {
+			id = ae_civil_war_events.2
+			days = 61
+			random = 30
 		}
-	}	
-}   	 
+	}
+	
+	option = {
+		name = "ae_civil_war_events.1.c"
+		
+		custom_tooltip = "ae_civil_war_events.1.tt"
+	}
+	
+	option = {
+		name = "ae_civil_war_events.1.od"
+		
+		custom_tooltip = "ae_civil_war_events.1.od.tt"
+	}
+}
