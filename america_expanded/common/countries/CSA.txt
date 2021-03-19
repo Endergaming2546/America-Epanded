@@ -116,5 +116,5 @@ ship_names = {
 	Lynch Macedonia Manly Marblehead Massachusetts Merrimack Middletown Mifflin Minerva Monmouth Montezuma Morris Mosquito Northampton Ohio Page Patapsco Peacock
 	Pennsylvania Philadephia Pilgrim Pompey Portsmouth Potomac President Prosper Protector Providence Putnam Raleigh Randolph Ranger Rattlesnake Reprisal Republic
 	Repulse Resistance Resolution Retrieve Rhodes Richard Sabine Safeguard Saratoga Scorpion Shark Spitfire Spy Surprise Swift Tartar Tempest Trumbull Tyrannicide
-	Vengeance Vermont Viper Virginia Wabash Warren Warren Washington Wasp Wilkes
+	Vengeance Vermont Viper Virginia Wabash Warren Washington Wasp Wilkes
 }

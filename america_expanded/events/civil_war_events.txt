@@ -10,11 +10,6 @@ country_event = {
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = USA
-		year > 1850
-	}
-	
 	mean_time_to_happen = {
 		months = 120
 	}
@@ -309,14 +304,6 @@ country_event = {
 		name = "ae_civil_war_events.1.a"
 		
 		custom_tooltip = "ae_civil_war_events.1.tt"
-		
-		hidden_effect = {
-			country_event = {
-				id = ae_civil_war_events.2
-				days = 61
-				random = 30
-			}
-		}
 	}
 	
 	option = {
@@ -325,16 +312,6 @@ country_event = {
 		custom_tooltip = "ae_civil_war_events.1.tt"
 		
 		switch_tag = CSA
-		
-		hidden_effect = {
-			USA = {
-				country_event = {
-					id = ae_civil_war_events.2
-					days = 61
-					random = 30
-				}
-			}
-		}
 	}
 	
 	option = {
@@ -349,7 +326,6 @@ country_event = {
 		custom_tooltip = "ae_civil_war_events.1.od.tt"
 		
 		hidden_effect = {
-			annex = CSA
 		}
 	}
 }

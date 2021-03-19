@@ -10,9 +10,126 @@ country_event = {
 	
 	option = {
 		name = "ae_american_empire_events.1.a"
+		
+		country_event = {
+			id = ae_american_empire_events.2
+			days = 30
+			random = 60
+		}
 	}
 	
 	option = {
 		name = "ae_american_empire_events.1.b"
+	}
+}
+
+
+country_event = {
+	id = ae_american_empire_events.2
+	title = "ae_american_empire_events.2.t"
+	desc = "ae_american_empire_events.2.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ae_american_empire_events.2.a"
+		
+		country_event = {
+			id = ae_american_empire_events.3
+			days = 15
+			random = 31
+		}
+	}
+	
+	option = {
+		name = "ae_american_empire_events.2.b"
+	}
+	
+	option = {
+		name = "ae_american_empire_events.2.c"
+	}
+}
+
+country_event = {
+	id = ae_american_empire_events.3
+	title = "ae_american_empire_events.3.t"
+	desc = "ae_american_empire_events.3.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ae_american_empire_events.3.a"
+		
+		random_list = {
+			50 = {
+				country_event = {
+					id = ae_american_empire_events.4
+				}
+			}
+			50 = {
+				country_event = {
+					id = ae_american_empire_events.5
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "ae_american_empire_events.3.b"
+		
+		country_event = {
+			id = ae_american_empire_events.6
+		}
+	}
+}
+
+country_event = {
+	id = ae_american_empire_events.4
+	title = "ae_american_empire_events.4.t"
+	desc = "ae_american_empire_events.4.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ae_american_empire_events.4.a"
+	}
+}
+
+country_event = {
+	id = ae_american_empire_events.5
+	title = "ae_american_empire_events.5.t"
+	desc = "ae_american_empire_events.5.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ae_american_empire_events.5.a"
+	}
+}
+
+country_event = {
+	id = ae_american_empire_events.6
+	title = "ae_american_empire_events.6.t"
+	desc = "ae_american_empire_events.6.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ae_american_empire_events.6.a"
 	}
 }
